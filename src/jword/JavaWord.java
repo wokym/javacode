@@ -15,11 +15,9 @@ import java.util.List;
 	import org.apache.poi.poifs.filesystem.DirectoryEntry;
 import org.apache.poi.poifs.filesystem.DocumentEntry;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
-import org.junit.Test;
 import org.textmining.text.extraction.WordExtractor;
 
 import sun.org.mozilla.javascript.internal.ast.WithStatement;
-import junit.framework.TestCase;
 	/**
 	 * ¶ÁÐ´doc
 	 * @author wangzonghao

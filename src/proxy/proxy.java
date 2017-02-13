@@ -43,7 +43,7 @@ public class proxy {
 				throws Throwable {
 	        	Object result=null;
 	        	System.out.println("start ....");
-	        	//proxy为代理对象，如果使用将重复调用该方法
+	        	//proxy为代理对象，如果使用将重复调用该方法，代理对象所有方法都会走invoke方法
 	            result = method.invoke(a, args);//如果用到了同类中，已经加注解的方法，则该方法注解不可用，因为此时对象用的原对象而非使用注解的代理对象！
 //	            channelParseData2.$invoke("getParseResult", new String[]{"com.turing.base.platfrom.model.InputMessage"}, new Object[]{parseObject2});
 	           System.out.println("method===="+method.getName());
